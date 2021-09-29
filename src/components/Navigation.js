@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/style.css";
-import { Nav, NavItem, Navbar, Container ,  NavLink} from "react-bootstrap";
-import { Link } from "react-router-dom"
+import { Nav, NavItem, Navbar, Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom"
 import Logo from "../assets/mainLogo.png";
 const Navigation = () => {
   return (
@@ -14,22 +14,22 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav mr-auto" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-              <NavLink className="link_color" href="/buyanapp">
+              <NavLink className="link_color" to="/buyanapp">
                 BUY AN APE
               </NavLink>
-              <NavLink className="link_color" href="/rodemap">
+              <NavLink className="link_color" to="/rodemap">
                 ROADMAP
               </NavLink>
-              <NavLink className="link_color" href="/team">
+              <NavLink className="link_color" to="/team">
                 TEAM
               </NavLink>
-              <NavLink className="link_color" href="/mayc">
+              <NavLink className="link_color" to="/mayc">
                 MAYC
               </NavLink>
-              <NavLink className="link_color" href="/gallary">
+              <NavLink className="link_color" to="/gallary">
                 Gallary
               </NavLink>
-              <NavLink className="link_color" href="/">
+              <NavLink className="link_color" to="/">
                 PROVENANCE
               </NavLink>
             </Nav>
