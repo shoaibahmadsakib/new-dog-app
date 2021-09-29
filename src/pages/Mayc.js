@@ -5,6 +5,7 @@ const Mayc = () => {
     return (
         <div>
             <Navigation/>
+            <h1>hello bye</h1>
         </div>
     )
 }
