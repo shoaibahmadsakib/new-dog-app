@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import { Nav, NavItem, Navbar, Container } from "react-bootstrap";
+import { Link} from "react-router-dom"
 import Logo from "../assets/mainLogo.png";
 const Navigation = () => {
   return (
@@ -13,24 +14,24 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav mr-auto" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-              <Nav.Link className="link_color" href="/buyanapp">
+              <Link className="link_color" to="/buyanapp">
                 BUY AN APE
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/rodemap">
+              </Link>
+              <Link className="link_color" to="/rodemap">
                 ROADMAP
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/team">
+              </Link>
+              <Link className="link_color" to="/team">
                 TEAM
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/mayc">
+              </Link>
+              <Link className="link_color" to="/mayc">
                 MAYC
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/gallary">
+              </Link>
+              <Link className="link_color" to="/gallary">
                 Gallary
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/">
+              </Link>
+              <Link className="link_color" to="/">
                 PROVENANCE
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
