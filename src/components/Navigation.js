@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/style.css";
-import { Nav, NavItem, Navbar, Container } from "react-bootstrap";
-// import { } from "react-router-dom"
+import { Nav, NavItem, Navbar, Container ,  NavLink} from "react-bootstrap";
+import { Link } from "react-router-dom"
 import Logo from "../assets/mainLogo.png";
 const Navigation = () => {
   return (
@@ -14,24 +14,24 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav mr-auto" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-              <Nav.Link className="link_color" href="/buyanapp">
+              <NavLink className="link_color" href="/buyanapp">
                 BUY AN APE
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/rodemap">
+              </NavLink>
+              <NavLink className="link_color" href="/rodemap">
                 ROADMAP
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/team">
+              </NavLink>
+              <NavLink className="link_color" href="/team">
                 TEAM
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/mayc">
+              </NavLink>
+              <NavLink className="link_color" href="/mayc">
                 MAYC
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/gallary">
+              </NavLink>
+              <NavLink className="link_color" href="/gallary">
                 Gallary
-              </Nav.Link>
-              <Nav.Link className="link_color" href="/">
+              </NavLink>
+              <NavLink className="link_color" href="/">
                 PROVENANCE
-              </Nav.Link>
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
