@@ -1,0 +1,150 @@
+.Header_main_logo{
+
+}
+.Header_main_logo img{
+    height: 100px;
+}
+
+
+.header_twopart{
+    display: flex;
+    justify-content: space-between;
+}
+.top_icon_padding{
+    display: flex;
+    /* align-items: center; */
+    padding-top: 20px;
+
+}
+.top_icon_padding a{
+    padding-right:20px;
+}
+/* header */
+
+
+
+.top_Header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/bayc-mutant-hero.jpg");
+   
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+  }
+  .header_textpart {
+    /* font-family: Roboto;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 127px; */
+  }
+
+  .text_styles{
+    text-align: start;
+  }
+  .header_two_part {
+    position: relative;
+    top: 400px;
+  }
+  
+  
+.Footer{
+  border-bottom: 50px solid yellow;
+
+}
+.footer_three_item{
+  display: flex;
+  justify-content: space-between;
+ padding:0px 100px;
+}
+
+
+.footer_top_line{
+  margin: 0px 100px;
+  color: white;
+  padding: 2px;
+  background: white;
+
+}
+
+/* footer */
+.email-container{
+  margin-top: 50px;
+}
+
+.line_style{
+
+}
+
+.footer_logo{
+
+}
+.footer_logo img{
+  height: 200px;
+  width: 200px;
+}
+.third_item{
+  padding-top: 30px;
+}
+.icon_padding{
+  display: flex;
+  justify-content: space-evenly;
+}
+.copyright_text_right{
+
+}
+.copyright_text-right a{
+  text-decoration: none;
+  color: #959595;
+}
+
+/* main button */
+
+.Main_part{
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 0px 98px;
+
+}
+.button_part_style {
+  width: 280px;
+  height: 60px;
+  /* left: 100px; */
+  /* top: 835px; */
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+ 
+}
+.button_style{
+  width: fit-content;
+}
+
+
+/* terms and condition page */
+
+.terms-description{
+
+}
+.condition_container{
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  padding: 20px 100px;
+  line-height: 38px;
+
+}
+
+
+/* nevbar */
+.link_color{
+  color: #ffff !important;
+}

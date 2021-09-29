@@ -1,38 +1,57 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: #ffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* buy an app */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ful_container {
+  padding: 50px 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first_section {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 54% auto;
+  grid-gap: 229px;
+}
+.first_section1 {
+  /* width: 50%; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    flex-direction: column;
+    text-align: justify;
+}
+.first_section2 {
 }
 
-.App-link {
-  color: #61dafb;
+.four_image {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first_section1 h1 {
+  /* text-align: start; */
+}
+.first_section1 p {
+  /* text-align: start; */
+}
+
+/* second section */
+
+.second_section {
+  /* display: flex;
+  justify-content: space-between;
+  grid-gap: 100px;
+  padding-top: 100px; */
+
+}
+.second_section1 {
+  /* text-align: initial; */
+}
+.second_section2 {
+  /* text-align: initial; */
+}
+.Note_part {
 }
