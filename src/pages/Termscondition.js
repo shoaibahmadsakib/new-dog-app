@@ -72,6 +72,9 @@ const Termscondition = () => {
             provided that the Art is no longer visible once the owner of the
             Purchased Bored Ape leaves the website/application; or (iii) earning
             revenue from any of the foregoing.
+
+
+            ffffffffffffffffffffff
           </p>
         </div>
       
