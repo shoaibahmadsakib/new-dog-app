@@ -7,51 +7,90 @@
 /* buy an app */
 
 .ful_container {
-  padding: 50px 100px;
+  padding: 50px 150px;
 }
 .first_section {
-  /* display: flex;
-  justify-content: space-between; */
+  /* flex-wrap: wrap; */
   display: grid;
-  grid-template-columns: 54% auto;
-  grid-gap: 229px;
+  grid-template-columns: 55% auto;
 }
 .first_section1 {
   /* width: 50%; */
   display: flex;
-    flex-direction: column;
-    text-align: justify;
+  flex-direction: column;
+  text-align: justify;
 }
 .first_section2 {
+  margin-left: 100px;
 }
 
 .four_image {
-  /* display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px; */
+  grid-gap: 10px;
 }
-
+.four_image img {
+  max-width: 100%;
+  height: 100%;
+}
 .first_section1 h1 {
-  /* text-align: start; */
+  text-align: start;
 }
 .first_section1 p {
-  /* text-align: start; */
+  text-align: start;
 }
 
 /* second section */
 
 .second_section {
-  /* display: flex;
-  justify-content: space-between;
-  grid-gap: 100px;
-  padding-top: 100px; */
-
+  display: grid;
+  grid-template-columns: 55% auto;
+  margin-top: 100px;
 }
 .second_section1 {
-  /* text-align: initial; */
+  text-align: initial;
 }
 .second_section2 {
-  /* text-align: initial; */
+  margin-left: 100px;
 }
 .Note_part {
+  text-align:justify
+}
+/* the space */
+
+.the_space {
+  display: grid;
+  grid-template-columns: 55% auto;
+  margin-top: 100px;
+}
+.the_space1 {
+  text-align: initial;
+}
+.the_space2 {
+  margin-left: 100px;
+}
+
+.the_space img {
+  max-width: 100%;
+  height: 100%;
+}
+
+
+/* bartroom */
+
+.barthroom {
+  display: grid;
+  grid-template-columns: 55% auto;
+  margin-top: 100px;
+}
+.barthroom_part1 {
+  text-align: initial;
+}
+.barthroom_part2 {
+  margin-left: 100px;
+}
+
+.barthroom_part2 img {
+  max-width: 100%;
+  height: 100%;
 }

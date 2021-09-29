@@ -1,6 +1,10 @@
 import React from "react";
 import "../css/style.css"
 import { Link} from 'react-router-dom'
+import Logo1 from "../assets/logo1.svg";
+import Logo2 from "../assets/logo2.svg";
+import Logo3 from "../assets/logo3.svg";
+import Logo4 from "../assets/logo4.svg";
 const Footer = () => {
   return (
     <footer class="Footer">
@@ -43,19 +47,19 @@ const Footer = () => {
         </div>
 
         <div class="third_item">
-          <div class="row">
+          <div class="third_item_icon">
             <div class="icon_padding">
               <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
-                <i class="fa fa-youtube-play social-icon pr-lg-0"></i>
+              <img src={Logo1} alt="" />
               </a>
               <a href="https://www.instagram.com/boredapeyachtclub">
-                <i class="fa fa-instagram social-icon pr-lg-0"></i>
+              <img src={Logo2} alt="" />
               </a>
               <a href="https://discord.gg/3P5K3dzgdB">
-                <i class="fa fa-discord-alt social-icon pr-lg-0"></i>
+              <img src={Logo3} alt="" />
               </a>
               <a href="https://twitter.com/BoredApeYC">
-                <i class="fa fa-twitter social-icon pr-lg-0"></i>
+              <img src={Logo4} alt="" />
               </a>
             </div>
             <div class="copyright_text">
