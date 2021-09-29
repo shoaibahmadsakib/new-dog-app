@@ -5,8 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useParams
+  
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Termscondition from "./pages/Termscondition";
