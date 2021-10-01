@@ -14,20 +14,20 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav mr-auto" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-              <NavLink className="link_color" to="/buyanapp">
-                BUY AN APE
+              <NavLink className="link_color" to="/buyadog">
+                BUY A DOTB
               </NavLink>
-              <NavLink className="link_color" to="/rodemap">
+              <NavLink className="link_color" to="/roadmap">
                 ROADMAP
               </NavLink>
               <NavLink className="link_color" to="/team">
                 TEAM
               </NavLink>
-              <NavLink className="link_color" to="/mayc">
-                MAYC
+              <NavLink className="link_color" to="/dotb">
+                DOTB
               </NavLink>
-              <NavLink className="link_color" to="/gallary">
-                Gallary
+              <NavLink className="link_color" to="/gallery">
+                Gallery
               </NavLink>
               <NavLink className="link_color" to="/">
                 PROVENANCE
