@@ -27,11 +27,11 @@ function App() {
           <Route  path="/terms">
             <Termscondition/>
           </Route>
-          <Route  path="/buyanapp" component={Buyadog}/>
+          <Route  path="/buyadog" component={Buyadog}/>
           <Route  path="/team" component={Team}/>
-          <Route  path="/rodemap" component={roadmap}/>
-          <Route  path="/gallary" component={Gallery}/>
-          <Route  path="/mayc" component={dotb}/>
+          <Route  path="/roadmap" component={roadmap}/>
+          <Route  path="/gallery" component={Gallery}/>
+          <Route  path="/dotb" component={dotb}/>
        
         </Switch>
         
