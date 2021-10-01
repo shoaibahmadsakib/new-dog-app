@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const Rodemap = () => {
+const roadmap = () => {
     return (
         <div>
             <Navigation/>
@@ -9,4 +9,4 @@ const Rodemap = () => {
     )
 }
 
-export default Rodemap
+export default roadmap
