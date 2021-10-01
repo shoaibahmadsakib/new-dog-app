@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <div class="copyright_text">
               <p class="copyright_text_right">
-                <span class="copy-left">© 2021 Yuga Labs LLC</span>
+                <span class="copy-left">Dogs on the Block © 2021</span>
               </p>
             </div>
             <div class="copyright_text">
