@@ -75,6 +75,9 @@ const Footer = () => {
                 <br />
                 <a class="link" href="/mayc/terms">
                   MAYC Terms &amp; Conditions
+
+
+               
                 </a>
               </p>
             </div>

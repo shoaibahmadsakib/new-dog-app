@@ -9,11 +9,11 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Termscondition from "./pages/Termscondition";
-import BuyAnApp from "./pages/Buyadog";
+import Buyadog from "./pages/Buyadog";
 import Team from "./pages/Team";
-import Rodemap from "./pages/roadmap";
-import Gallary from "./pages/Gallery";
-import Mayc from "./pages/dotb";
+import roadmap from "./pages/roadmap";
+import Gallery from "./pages/Gallery";
+import dotb from "./pages/dotb";
 
 function App() {
   return (

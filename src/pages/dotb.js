@@ -10,4 +10,4 @@ const dotb = () => {
     )
 }
 
-export default Mayc
+export default dotb
