@@ -74,7 +74,7 @@ const BuyAnApp = () => {
 
         <div className="barthroom">
           <div className="barthroom_part1">
-            <h1>THE BATHROOM</h1>
+            <h1>THE BATHROOM 1</h1>
             <p>
               The BAYC Bathroom will become operational once the presale period
               is over. It contains a canvas accessible only to wallets
