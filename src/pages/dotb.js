@@ -1,12 +1,13 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const Rodemap = () => {
+const dotb = () => {
     return (
         <div>
             <Navigation/>
+            <h1>hello bye</h1>
         </div>
     )
 }
 
-export default Rodemap
+export default Mayc

@@ -27,10 +27,10 @@ const Header = () => {
             <a href="https://www.instagram.com/boredapeyachtclub">
               <img src={Logo2} alt="" />
             </a>
-            <a href="https://discord.gg/3P5K3dzgdB">
+            <a href="https://discord.gg/dogsontheblock">
               <img src={Logo3} alt="" />
             </a>
-            <a href="https://twitter.com/BoredApeYC">
+            <a href="https://twitter.com/dogsontheblock">
               <img src={Logo4} alt="" />
             </a>
           </div>
@@ -40,7 +40,7 @@ const Header = () => {
       <div className="header_two_part">
         <div className="header_textpart">
           <div className="Main_part">
-            <h1 className="text_styles">WELCOME TO THE <br/>BORED APE YACHT CLUB</h1>
+            <h1 className="text_styles">WELCOME TO THE <br/>Dogs on the Block</h1>
             <div className="button_style">
               <button className="button_part_style">ENTER</button>
               <hr className="line_style"/>

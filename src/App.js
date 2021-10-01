@@ -9,11 +9,11 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Termscondition from "./pages/Termscondition";
-import BuyAnApp from "./pages/BuyAnApp";
+import BuyAnApp from "./pages/Buyadog";
 import Team from "./pages/Team";
-import Rodemap from "./pages/Rodemap";
-import Gallary from "./pages/Gallary";
-import Mayc from "./pages/Mayc";
+import Rodemap from "./pages/roadmap";
+import Gallary from "./pages/Gallery";
+import Mayc from "./pages/dotb";
 
 function App() {
   return (
@@ -27,11 +27,11 @@ function App() {
           <Route  path="/terms">
             <Termscondition/>
           </Route>
-          <Route  path="/buyanapp" component={BuyAnApp}/>
+          <Route  path="/buyadog" component={Buyadog}/>
           <Route  path="/team" component={Team}/>
-          <Route  path="/rodemap" component={Rodemap}/>
-          <Route  path="/gallary" component={Gallary}/>
-          <Route  path="/mayc" component={Mayc}/>
+          <Route  path="/roadmap" component={roadmap}/>
+          <Route  path="/gallery" component={Gallery}/>
+          <Route  path="/dotb" component={dotb}/>
        
         </Switch>
         

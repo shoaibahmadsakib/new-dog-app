@@ -1,13 +1,12 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const Mayc = () => {
+const roadmap = () => {
     return (
         <div>
             <Navigation/>
-            <h1>hello bye</h1>
         </div>
     )
 }
 
-export default Mayc
+export default roadmap
