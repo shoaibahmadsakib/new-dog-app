@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const Mayc = () => {
+const dotb = () => {
     return (
         <div>
             <Navigation/>
