@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/style.css"
-import { Link} from 'react-router-dom'
+import "../css/style.css";
+import { Link } from "react-router-dom";
 import Logo1 from "../assets/logo1.svg";
 import Logo2 from "../assets/logo2.svg";
 import Logo3 from "../assets/logo3.svg";
@@ -50,16 +50,16 @@ const Footer = () => {
           <div class="third_item_icon">
             <div class="icon_padding">
               <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
-              <img src={Logo1} alt="" />
+                <img src={Logo1} alt="" />
               </a>
               <a href="https://www.instagram.com/boredapeyachtclub">
-              <img src={Logo2} alt="" />
+                <img src={Logo2} alt="" />
               </a>
               <a href="https://discord.gg/3P5K3dzgdB">
-              <img src={Logo3} alt="" />
+                <img src={Logo3} alt="" />
               </a>
               <a href="https://twitter.com/BoredApeYC">
-              <img src={Logo4} alt="" />
+                <img src={Logo4} alt="" />
               </a>
             </div>
             <div class="copyright_text">
@@ -74,10 +74,7 @@ const Footer = () => {
                 </Link>
                 <br />
                 <a class="link" href="/mayc/terms">
-                  MAYC Terms &amp; Conditions
-
-abc
-               
+                  MAYC Terms &amp; Conditions abc
                 </a>
               </p>
             </div>

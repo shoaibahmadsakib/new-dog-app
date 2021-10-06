@@ -54,7 +54,7 @@
   margin-left: 100px;
 }
 .Note_part {
-  text-align:justify
+  text-align: justify;
 }
 /* the space */
 
@@ -75,7 +75,6 @@
   height: 100%;
 }
 
-
 /* bartroom */
 
 .barthroom {
@@ -93,4 +92,111 @@
 .barthroom_part2 img {
   max-width: 100%;
   height: 100%;
+}
+
+/* buy an app */
+.three_section {
+  background-color: #bfc500;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+/* welcome part */
+.welcome_two_part {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.welcomw_first_part {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: revert; */
+  align-items: flex-start;
+  padding-right: 31%;
+}
+.welcome_second_part {
+  display: flex;
+
+  justify-content: space-between;
+}
+.welcome_mainpart {
+  padding: 10px;
+}
+.welcome_paragraph {
+  text-align: initial;
+}
+
+/* community */
+
+.communities_tools {
+}
+.community_two_part {
+  display: grid;
+  grid-template-columns: 55% auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.community_first_part {
+  text-align: initial;
+}
+.community_second_part {
+}
+
+
+
+
+
+/* slide */
+.slide_three_part {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 150px;
+}
+.first_slide{
+
+}
+.first_slide img{
+  height: 100%;
+  width: 100%;
+}
+
+
+/* dropdown */
+
+.dropdown_style{
+  width: fit-content;
+  border-bottom: 2px solid;
+}
+.dropdown_button{
+  color: #fff !important;
+}
+
+.image_part{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+}
+
+.grid_image img{
+height: 100%;
+width: 100%;
+}
+
+.gallary_two_part{
+  display: grid;
+    grid-template-columns: 26% auto;
+
+}
+
+.drop_down_part{
+  text-align: start;
+  /* padding: 20px; */
+  padding-right: 50px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+
 }

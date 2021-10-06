@@ -4,6 +4,7 @@ import Image1 from "../assets/1.png";
 import Image2 from "../assets/2.jpeg";
 import Image3 from "../assets/3.jpeg";
 import Image4 from "../assets/4.jpeg";
+import Welcome1 from "../assets/welcome1.png";
 
 const BuyAnApp = () => {
   return (
@@ -90,6 +91,147 @@ const BuyAnApp = () => {
             <img src={Image1} alt="" />
           </div>
         </div>
+
+        <div className="buy_an_app">
+          <div className="three_section">
+            <div class="section_1">
+              <h3 class="buy-ape-title">BUY AN APE</h3>
+            </div>
+            <div class="section_2">
+              <p class="common-p mb-lg-0">
+                The initial sale has sold out. To get your Bored Ape, check out
+                the collection on OpenSea.
+              </p>
+            </div>
+            <div class="section_3">
+              <a href="https://opensea.io/collection/boredapeyachtclub">
+                <button class="bayc-button mint" type="button">
+                  BUY AN APE ON OPENSEA
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/* welcome cube part */}
+          <div className="welcomeclub">
+            <div className="welcome_two_part">
+              <div className="welcomw_first_part">
+                <h1 className="welcome_header">WELCOME TO THE CLUB</h1>
+                <p className="welcome_paragraph">
+                  When you buy a Bored Ape, you’re not simply buying an avatar
+                  or a provably-rare piece of art. You are gaining membership
+                  access to a club whose benefits and offerings will increase
+                  over time. Your Bored Ape can serve as your digital identity,
+                  and open digital doors for you.
+                </p>
+              </div>
+              <div className="welcome_second_part">
+                <div className="welcome_mainpart">
+                  <div className="welcome_image">
+                    <img
+                      className="welcome_image_size"
+                      src={Welcome1}
+                      alt="welcome image"
+                    />
+                  </div>
+                  <div className="welcome_image_text">
+                    <p className="welcome_text">
+                      10,000 Provably-rare Bored Ape tokens
+                    </p>
+                  </div>
+                </div>
+
+                <div className="welcome_mainpart">
+                  <div className="welcome_image">
+                    <img
+                      className="welcome_image_size"
+                      src={Welcome1}
+                      alt="welcome image"
+                    />
+                  </div>
+                  <div className="welcome_image_text">
+                    <p className="welcome_text">
+                      10,000 Provably-rare Bored Ape tokens
+                    </p>
+                  </div>
+                </div>
+
+                <div className="welcome_mainpart">
+                  <div className="welcome_image">
+                    <img
+                      className="welcome_image_size"
+                      src={Welcome1}
+                      alt="welcome image"
+                    />
+                    <div className="welcome_image_text">
+                      <p className="welcome_text">
+                        10,000 Provably-rare Bored Ape tokens
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="welcome_mainpart">
+                  <div className="welcome_image">
+                    <img
+                      className="welcome_image_size"
+                      src={Welcome1}
+                      alt="welcome image"
+                    />
+                  </div>
+                  <div className="welcome_image_text">
+                    <p className="welcome_text">
+                      10,000 Provably-rare Bored Ape tokens
+                    </p>
+                  </div>
+                </div>
+
+                <div className="welcome_mainpart">
+                  <div className="welcome_image">
+                    <img
+                      className="welcome_image_size"
+                      src={Welcome1}
+                      alt="welcome image"
+                    />
+                  </div>
+                  <div className="welcome_image_text">
+                    <p className="welcome_text">
+                      10,000 Provably-rare Bored Ape tokens
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* welcome end */}
+
+        {/* communities tools */}
+        <div className="communities_tools">
+          <div className="community_two_part">
+            <div className="community_first_part">
+              <h1 className="community_heading">COMMUNITY TOOLS</h1>
+              <p className="community_para">
+                Here are some helpful tools created by the Bored Ape Yacht Club
+                community. Please note that these are unofficial in nature.
+                Every assignment of an ape's overall value or rarity is
+                inherently subjective.
+              </p>
+            </div>
+            <div className="community_second_part">
+              <div className="community_button">
+                <div className="button1">
+                  <button>button</button>
+                </div>
+                <div className="button2">
+                  <button>button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* communities tools end */}
       </div>
     </div>
   );
