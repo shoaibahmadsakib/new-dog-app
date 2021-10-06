@@ -7,14 +7,16 @@
 
 
 .header_twopart{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .top_icon_padding{
     display: flex;
     /* align-items: center; */
     padding-top: 20px;
-
+justify-content: center;
 }
 .top_icon_padding a{
     padding-right:20px;
