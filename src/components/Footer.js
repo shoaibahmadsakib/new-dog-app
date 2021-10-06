@@ -1,10 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import { Link } from "react-router-dom";
-import Logo1 from "../assets/logo1.svg";
-import Logo2 from "../assets/logo2.svg";
-import Logo3 from "../assets/logo3.svg";
-import Logo4 from "../assets/logo4.svg";
+
 const Footer = () => {
   return (
     <footer class="Footer">
@@ -89,9 +86,9 @@ const Footer = () => {
 
               <div className="col-lg-12 col-sm-6 col-6 d-inline-block p-0 ">
                 <p id="terms" class="copyright text-right">
-                  <a className="link" href="/terms">
-                    BAYC Terms &amp; Conditions
-                  </a>
+                  <Link class="link" to="/terms">
+                     BAYC Terms &amp; Conditions 
+                  </Link>
                   <br />
                   <a className="link" href="#/mayc/terms">
                     MAYC Terms &amp; Conditions
