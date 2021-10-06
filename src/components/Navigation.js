@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <div>
       <Navbar expand="lg">
-        <Container>
+        <Container className="navigation_container">
           <Navbar.Brand href="/">
             <img src={Logo} alt="" />
           </Navbar.Brand>

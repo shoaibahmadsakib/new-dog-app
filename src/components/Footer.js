@@ -7,24 +7,24 @@ import Logo3 from "../assets/logo3.svg";
 import Logo4 from "../assets/logo4.svg";
 const Footer = () => {
   return (
-    <footer class="Footer">
-      <hr class="footer_top_line" />
-      <div class="footer_three_item">
-        <div class="email-container">
-          <span class="email-label">GET ON THE LIST</span>
+    <footer className="Footer">
+      <hr className="footer_top_line" />
+      <div className="footer_three_item">
+        <div className="email-container">
+          <span className="email-label">GET ON THE LIST</span>
           <br />
-          <div class="d-flex email-flex">
+          <div className="email_form">
             <br />
             <form
               id="email-submit"
               method="post"
               name="mc-embedded-subscribe-form"
               target="_blank"
-              class="email-form"
+              className="email-form_here"
             >
               <input
                 id="email-address"
-                class=""
+                className=""
                 type="email"
                 placeholder="Email Address"
                 name="EMAIL"
@@ -32,23 +32,23 @@ const Footer = () => {
                 value=""
               />
 
-              <button name="subscribe" class="email-submit" type="submit">
+              <button name="subscribe" className="email-submit" type="submit">
                 →
               </button>
             </form>
           </div>
         </div>
-        <div class="footer_logo">
+        <div className="footer_logo">
           <img
-            class="img-fluid footer-logo"
+            className="img-fluid footer-logo"
             src="https://ik.imagekit.io/bayc/assets/bayc-footer.png"
             alt="logo"
           />
         </div>
 
-        <div class="third_item">
-          <div class="third_item_icon">
-            <div class="icon_padding">
+        <div className="third_item">
+          <div className="third_item_icon">
+            <div className="icon_padding">
               <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
                 <img src={Logo1} alt="" />
               </a>
@@ -62,18 +62,18 @@ const Footer = () => {
                 <img src={Logo4} alt="" />
               </a>
             </div>
-            <div class="copyright_text">
-              <p class="copyright_text_right">
-                <span class="copy-left">Dogs on the Block © 2021</span>
+            <div className="copyright_text">
+              <p className="copyright_text_right">
+                <span className="copy-left">Dogs on the Block © 2021</span>
               </p>
             </div>
-            <div class="copyright_text">
-              <p id="terms" class="copyright_text-right">
-                <Link class="link" to="/terms">
+            <div className="copyright_text">
+              <p id="terms" className="copyright_text-right">
+                <Link className="link" to="/terms">
                   BAYC Terms &amp; Conditions
                 </Link>
                 <br />
-                <a class="link" href="/mayc/terms">
+                <a className="link" href="/mayc/terms">
                   MAYC Terms &amp; Conditions abc
                 </a>
               </p>
