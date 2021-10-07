@@ -114,12 +114,32 @@ const Gallary = ({ data }) => {
             <div className="image_part">
               {data.map(function (d, index) {
                 return (
-                  <div
-                    key={index}
-                    style={{ width: "180px", height: "180px" }}
-                    className="grid_image"
+                  // <div
+                  //   key={index}
+                  //   style={{ width: "180px", height: "180px" }}
+                  //   className="grid_image"
+                  // >
+                  //   <img src={d} alt={d} />
+                  // </div>
+
+                  <div className="image_styles"
+                    style={{
+                      transition:
+                        "opacity 400ms ease 0s, transform 400ms ease 0s",
+                      transform: "none",
+                      opacity: 1,
+                    }}
                   >
-                    <img src={d} alt={d} />
+                    <a href={d}>
+                      <img
+                        className="gal-image"
+                        src={d}
+                        alt={d}
+                        height="100%"
+                        width="100%"
+                      />
+                    </a>
+                    <p>{index}</p>
                   </div>
                 );
               })}

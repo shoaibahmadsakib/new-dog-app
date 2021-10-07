@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/style.css";
+// import "../css/style.css";
 import MainImage from '../assets/bayc-mutant-hero.jpg'
 // import Logo1 from "../assets/logo1.svg";
 // import Logo2 from "../assets/logo2.svg";
