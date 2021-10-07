@@ -1,9 +1,8 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import { Dropdown, Navbar, Nav, Button } from "react-bootstrap";
-import Image from "../assets/1.png";
 
-const Gallary = () => {
+const Gallary = ({ data }) => {
   return (
     <div>
       <Navigation />
@@ -113,18 +112,17 @@ const Gallary = () => {
           </div>
           <div className="gallary_part">
             <div className="image_part">
-              <div className="grid_image">
-                <img src={Image} alt="" />
-              </div>
-              <div className="grid_image">
-                <img src={Image} alt="" />
-              </div>
-              <div className="grid_image">
-                <img src={Image} alt="" />
-              </div>
-              <div className="grid_image">
-                <img src={Image} alt="" />
-              </div>
+              {data.map(function (d, index) {
+                return (
+                  <div
+                    key={index}
+                    style={{ width: "180px", height: "180px" }}
+                    className="grid_image"
+                  >
+                    <img src={d} alt={d} />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
