@@ -63,12 +63,6 @@ const Footer = () => {
           <div className="col-md-4 col-lg-4 col-12 col-sm-12">
             <div class="third_item">
               <div className="text-lg-right col-sm-12 col-12">
-                <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
-                  <i className="fa fa-youtube-play social-icon pr-lg-0" />
-                </a>
-                <a href="https://www.instagram.com/boredapeyachtclub">
-                  <i className="fa fa-instagram social-icon pr-lg-0" />
-                </a>
                 <a href="https://discord.gg/dogsontheblock">
                   <i className="fa fa-discord-alt social-icon pr-lg-0" />
                 </a>
@@ -80,7 +74,7 @@ const Footer = () => {
               <div className="col-lg-12 col-sm-6 ">
                 <p className="copyright float-right ">
                   <span className="copy-left text-right">
-                    © 2021 Yuga Labs LLC
+                   Dogs on the Block © 2021
                   </span>
                 </p>
               </div>
@@ -110,12 +104,6 @@ export default Footer;
 
 // <div class="third_item_icon">
 // <div class="icon_padding">
-//   <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
-//     <img src={Logo1} alt="" />
-//   </a>
-//   <a href="https://www.instagram.com/boredapeyachtclub">
-//     <img src={Logo2} alt="" />
-//   </a>
 //   <a href="https://discord.gg/dogsontheblock">
 //     <img src={Logo3} alt="" />
 //   </a>
