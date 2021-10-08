@@ -94,7 +94,7 @@ const BuyAnApp = () => {
         </div>
 
         <div className="buy_an_app">
-          <div className="three_section">
+          <div className="four_section">
             <div class="section_1">
               <h3 class="buy-ape-title">BUY A DOTB</h3>
             </div>
