@@ -230,10 +230,10 @@ const BuyAnApp = () => {
             <div className="community_second_part">
               <div className="community_button">
                 <div className="button1">
-                  <button>button</button>
+                  <button>HowRare.is</button>
                 </div>
                 <div className="button2">
-                  <button>button</button>
+                  <button>RarityMon</button>
                 </div>
               </div>
             </div>
