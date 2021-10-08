@@ -139,6 +139,7 @@ const Gallary = ({ data }) => {
                   // </div>
 
                   <div
+                  key={index}
                     className="image_styles"
                     style={{
                       transition:
@@ -147,16 +148,16 @@ const Gallary = ({ data }) => {
                       opacity: 1,
                     }}
                   >
-                    <a href={d}>
+                    <a href={d.external_url}>
                       <img
                         className="gal-image"
-                        src={d}
-                        alt={d}
+                        src={d.image}
+                        alt={d.name}
                         height="100%"
                         width="100%"
                       />
                     </a>
-                    <p>{index}</p>
+                    <p>{d.name}</p>
                   </div>
                 );
               })}

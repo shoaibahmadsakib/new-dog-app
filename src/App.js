@@ -22,8 +22,8 @@ function App() {
         fetch(items[key].link)
           .then((re) => re.json())
           .then((res) => {
-            d.push(res.image);
-            console.log(res.name);
+            d.push(res);
+            console.log(res);
             // d.push(res.external_url);
           })
           .catch((err) => console.log(err));

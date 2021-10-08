@@ -245,6 +245,33 @@
   grid-gap: 32px;
 }
 
+@media screen and (max-width: 900px) {
+  .image_part {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallary_two_part {
+    display: flex !important;
+    flex-direction: column;
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image_part {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .gallary_two_part {
+    display: flex !important;
+    flex-direction: column;
+    grid-gap: 30px;
+  }
+}
+
 .grid_image img {
   height: 100%;
   width: 100%;
