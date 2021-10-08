@@ -96,18 +96,22 @@ const BuyAnApp = () => {
         <div className="buy_an_app">
           <div className="three_section">
             <div class="section_1">
+              <h3 class="buy-ape-title">BUY A DOTB</h3>
+            </div>
+            <div class="section_2">
               <p class="common-p mb-lg-0">
                 The initial sale has sold out. To get your DOTB, check out
                 the collection on MagicEden or DigitalEyes.
               </p>
             </div>
-            <div class="section_2">
+            <div class="section_3">
               <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block">
                 <button class="bayc-button mint" type="button">
                   BUY A DOTB ON DIGITALEYES
                 </button>
+                <br></br>
               </a>
-            <div class="section_3">
+            <div class="section_4">
               <a href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block">
                 <button class="bayc-button mint" type="button">
                   BUY A DOTB ON MAGICEDEN
