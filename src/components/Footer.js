@@ -74,7 +74,7 @@ const Footer = () => {
               <div className="col-lg-12 col-sm-6 ">
                 <p className="copyright float-right ">
                   <span className="copy-left text-right">
-                   Dogs on the Block © 2021
+                    Dogs on The Block © 2021
                   </span>
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default Footer;
 // </div>
 // <div class="copyright_text">
 //   <p class="copyright_text_right">
-//     <span className="copy-left">Dogs on the Block © 2021</span>
+//     <span className="copy-left">Dogs on The Block © 2021</span>
 //   </p>
 // </div>
 // <div class="copyright_text">

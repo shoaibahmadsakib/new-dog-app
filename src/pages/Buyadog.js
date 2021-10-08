@@ -105,14 +105,14 @@ const BuyAnApp = () => {
               </p>
             </div>
             <div class="section_3">
-              <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block">
+              <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block" alt="_">
                 <button class="bayc-button mint" type="button">
                   BUY A DOTB ON DIGITALEYES
                 </button>
                 <br></br>
               </a>
             <div class="section_4">
-              <a href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block">
+              <a href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block" alt="_">
                 <button class="bayc-button mint" type="button">
                   BUY A DOTB ON MAGICEDEN
                 </button>
