@@ -6,7 +6,7 @@
 
 /* buy an app */
 
-.header_image_part{
+.header_image_part {
   background-image: url("../src/assets/header_image.jpg");
   background-position: center;
   background-size: cover;
@@ -15,7 +15,6 @@
   height: 100vh;
   margin-bottom: 100px;
 }
-
 
 .ful_container {
   padding: 0px 110px;
@@ -64,6 +63,7 @@
 
   /* dotb */
 
+ 
   .slide_three_part {
     grid-gap: 10px !important;
     display: flex !important;
@@ -83,6 +83,39 @@
     flex-direction: column;
   }
 }
+
+/* end media querary */
+.welcomeclub{
+  padding:100px 0px 100px 0px;
+}
+
+.barthroom{
+  padding:100px 0px 100px 0px;
+}
+
+/* button part */
+.community_button{
+  display: flex;
+    flex-direction: column;
+    grid-gap: 11px;
+
+}
+
+
+
+.button1 button , .button2 button{
+  background-color: #a6efd0;
+    border-radius: 8px;
+    color: #000;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5%;
+    margin: auto auto;
+    transition: .3s;
+    padding: 17px 90px;
+}
+
 .first_section {
   /* flex-wrap: wrap; */
   display: grid;
@@ -179,7 +212,7 @@
 
 /* buy an app */
 .three_section {
-  background-color: #bfc500;
+  background-color: #a6efd0;
   display: flex;
   justify-content: space-between;
   padding: 40px;
@@ -417,7 +450,7 @@
 
 /* footer */
 .Footer {
-  border-bottom: 50px solid yellow;
+  border-bottom: 50px solid #a6efd0;
   margin-top: 50px;
 }
 .footer_three_item {
@@ -531,9 +564,9 @@
 }
 
 .bayc-button {
-  background-color: #bfc500;
+  background-color: #0a0a09;
   border-radius: 8px;
-  color: #000;
+  color: rgb(255, 255, 255);
   border: 0;
   font-weight: 700;
   font-size: 16px;
