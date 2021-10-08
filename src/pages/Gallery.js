@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navigation from "../components/Navigation";
 import { Dropdown, Navbar, Nav, Button } from "react-bootstrap";
 
@@ -13,9 +13,23 @@ const Gallary = ({ data }) => {
   //       });
   //     });
   //   return () => {
-   
+
   //   };
   // }, [input]);
+  const [item, setItem] = useState(data);
+
+  // const filterItem = (catagaryItem) => {
+  //   const updateItem = data.filter((curElem) => {
+  //     return curElem.attributes=== catagaryItem;
+  //   });
+  //   setItem(updateItem);
+  // };
+
+  const filterItem = (name) => {
+    const arrProject = data.filter((p) => p.attributes.includes(name));
+    setItem(arrProject);
+  };
+
   return (
     <div>
       <Navigation />
@@ -37,7 +51,9 @@ const Gallary = ({ data }) => {
                   <Dropdown.Item href="#/action-2">Army Green</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Blue</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Gray</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Blue</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" 
+                  onClick={()=>console.log( filterItem("Light Blue"))}
+                  >Blue</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">New Punk Blue</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Orange</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Purple</Dropdown.Item>
@@ -66,7 +82,12 @@ const Gallary = ({ data }) => {
                   <Dropdown.Item href="#/action-3">Biker Vest</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Black Holest</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Black Suit</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Black T</Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    onClick={() => filterItem("Yellow")}
+                  >
+                    Black T
+                  </Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Blue Dress</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Bone Necklace</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Bone Tee</Dropdown.Item>
@@ -125,10 +146,8 @@ const Gallary = ({ data }) => {
           </div>
           <div className="gallary_part">
             <div className="image_part">
-              {
-                console.log(data)
-              }
-              {data.map(function (d, index) {
+              {console.log(data)}
+              {item.map(function (d, index) {
                 return (
                   // <div
                   //   key={index}
@@ -139,7 +158,7 @@ const Gallary = ({ data }) => {
                   // </div>
 
                   <div
-                  key={index}
+                    key={index}
                     className="image_styles"
                     style={{
                       transition:
@@ -157,6 +176,7 @@ const Gallary = ({ data }) => {
                         width="100%"
                       />
                     </a>
+
                     <p>{d.name}</p>
                   </div>
                 );
