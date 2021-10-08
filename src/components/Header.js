@@ -34,12 +34,6 @@ const Header = () => {
 
               {/* main icons is here  */}
               <div className="d-none d-lg-flex justify-content-end social-icons col-lg-4">
-                <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
-                  <i className="fa fa-youtube-play social-icon pr-lg-0" />
-                </a>
-                <a href="https://www.instagram.com/boredapeyachtclub">
-                  <i className="fa fa-instagram social-icon pr-lg-0" />
-                </a>
                 <a href="https://discord.gg/dogsontheblock">
                   <i className="fa fa-discord-alt social-icon pr-lg-0" />
                 </a>
@@ -69,13 +63,13 @@ const Header = () => {
                     <h1 className="common-title mb-3">
                       WELCOME TO
                       <br />
-                      THE BORED APE
+                      THE DOGS ON
                       <br />
-                      YACHT CLUB
+                      THE BLOCK
                     </h1>
                     <Link to="/buyadog">
                       <button className="bayc-button mb-4 w-100" type="button">
-                        ENTER
+                        ENTER THE SITE
                       </button>
                     </Link>
                   </div>
@@ -88,9 +82,9 @@ const Header = () => {
             <div className="mb-5 row">
               <div className="col-lg-8 col-12">
                 <p className="common-p">
-                  A limited NFT collection where the token itself doubles as
-                  your membership to a swamp club for apes. The club is open!
-                  Ape in with us.
+                  An NFT collection with 8,888 dogs, where the NFT token itself doubles as
+                  your membership to the DOTB Exclusive Members Club. The club is open!
+                  Get your DOTB today!
                 </p>
               </div>
             </div>
@@ -117,17 +111,11 @@ export default Header;
     //         />
     //       </div>
     //       <div class="top_icon_padding">
-    //         <a href="https://www.youtube.com/watch?v=xeDDq6BkScc">
-    //           <img src={1} alt="" />
-    //         </a>
-    //         <a href="https://www.instagram.com/boredapeyachtclub">
-    //           <img src={2} alt="" />
-    //         </a>
     //         <a href="https://discord.gg/dogsontheblock">
-    //           <img src={3} alt="" />
+    //           <img src={3} alt="_" />
     //         </a>
     //         <a href="https://twitter.com/dogsontheblock">
-    //           <img src={4} alt="" />
+    //           <img src={4} alt="_" />
     //         </a>
     //       </div>
     //     </div>
@@ -138,7 +126,7 @@ export default Header;
     //       <div className="Main_part">
     //         <h1 className="text_styles">WELCOME TO THE <br/>Dogs on the Block</h1>
     //         <div className="button_style">
-    //           <button className="button_part_style">ENTER</button>
+    //           <button className="button_part_style">ENTER THE SITE</button>
     //           <hr className="line_style"/>
     //         </div>
     //       </div>
