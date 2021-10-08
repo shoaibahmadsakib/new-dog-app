@@ -50,7 +50,7 @@ const Navigation = () => {
                 onClick={() => scrollTo("#gallery")}
                 to="/gallery"
               >
-                Gallery
+                GALLERY
               </NavLink>
               <NavLink className="link_color" to="/">
                 PROVENANCE

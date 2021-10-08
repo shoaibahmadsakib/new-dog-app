@@ -40,10 +40,10 @@ const Header = () => {
                 <a href="https://www.instagram.com/boredapeyachtclub">
                   <i className="fa fa-instagram social-icon pr-lg-0" />
                 </a>
-                <a href="https://discord.gg/3P5K3dzgdB">
+                <a href="https://discord.gg/dogsontheblock">
                   <i className="fa fa-discord-alt social-icon pr-lg-0" />
                 </a>
-                <a href="https://twitter.com/BoredApeYC">
+                <a href="https://twitter.com/dogsontheblock">
                   <i className="fa fa-twitter social-icon pr-lg-0" />
                 </a>
               </div>

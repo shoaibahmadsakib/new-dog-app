@@ -1,6 +1,6 @@
 export const BuyDogData = [
   {
-    boredAppHeading: "WELCOM TO THE BORED APE YACHT CLUB",
+    boredAppHeading: "WELCOME TO THE DOGS ON THE BLOCK",
     boredAppPara:
       "  BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, andgrants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.",
   },
@@ -27,7 +27,7 @@ export const TheSpace = [
 
 export const theBarthroom = [
   {
-    barthroomHeader: "THE BARTHROOM",
+    barthroomHeader: "THE BATHROOM",
     barthroompara:
       "   The BAYC Bathroom will become operational once the presale period  is over. It contains a canvas accessible only to wallets containing at least one ape. Like any good dive bar bathroom, thisis the place to draw, scrawl, or write expletives. Each ape-holderwill be able to paint a pixel on the bathroom wall every fifteen minutes. Think of it as a collaborative art experiment for the cryptosphere. A members-only canvas for the discerning minds of crypto twitter. We're pretty sure it's going to be full of dicks.",
   },

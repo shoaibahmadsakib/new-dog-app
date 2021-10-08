@@ -53,7 +53,7 @@ const Gallary = ({ data }) => {
                   id="dropdown-basic"
                   className="dropdown_button"
                 >
-                  CLOTHES
+                  SKIN
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
@@ -105,7 +105,7 @@ const Gallary = ({ data }) => {
                   id="dropdown-basic"
                   className="dropdown_button"
                 >
-                  EARRING
+                  OUTFIT
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
