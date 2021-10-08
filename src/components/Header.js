@@ -6,6 +6,7 @@ import MainImage from "../assets/bayc-mutant-hero.jpg";
 // import Logo3 from "../assets/logo3.svg";
 // import Logo4 from "../assets/logo4.svg";
 import { Link } from "react-router-dom";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Header = () => {
   return (
@@ -72,7 +73,7 @@ const Header = () => {
                       <br />
                       YACHT CLUB
                     </h1>
-                    <Link to="/terms">
+                    <Link to="/buyadog">
                       <button className="bayc-button mb-4 w-100" type="button">
                         ENTER
                       </button>

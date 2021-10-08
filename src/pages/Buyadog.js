@@ -5,6 +5,7 @@ import Image2 from "../assets/2.jpeg";
 import Image3 from "../assets/3.jpeg";
 import Image4 from "../assets/4.jpeg";
 import Welcome1 from "../assets/welcome1.png";
+
 import {
   BuyDogData,
   Community,
@@ -19,6 +20,9 @@ const BuyAnApp = () => {
     <div>
       <Navigation />
       <div className="ful_container">
+        <div className="header_image_part">
+
+        </div>
         <div className="first_section">
           {BuyDogData.map((data, key) => {
             return (

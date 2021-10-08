@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import { Link } from "react-router-dom";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Footer = () => {
   return (
@@ -86,7 +87,9 @@ const Footer = () => {
 
               <div className="col-lg-12 col-sm-6 col-6 d-inline-block p-0 ">
                 <p id="terms" class="copyright text-right">
-                  <Link class="link" to="/terms">
+                  <Link class="link"
+                   onClick={() => scrollTo("#terms")}
+                  to="/terms">
                      BAYC Terms &amp; Conditions 
                   </Link>
                   <br />

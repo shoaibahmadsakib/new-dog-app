@@ -6,7 +6,7 @@ const Termscondition = () => {
   return (
     <div>
       <Navigation />
-      <div className="condition_container">
+      <div className="condition_container" id="terms">
         {TermData.map((data, key) => {
           return (
             <div key={key}>

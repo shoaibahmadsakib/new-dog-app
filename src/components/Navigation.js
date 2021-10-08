@@ -3,6 +3,8 @@ import "../css/style.css";
 import { Nav, NavItem, Navbar, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/mainLogo.png";
+import scrollTo from "gatsby-plugin-smoothscroll";
+
 const Navigation = () => {
   return (
     <div>
@@ -13,22 +15,41 @@ const Navigation = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-              <NavLink className="link_color" to="/buyadog">
+              <NavLink
+                className="link_color"
+                onClick={() => scrollTo("#buyadog")}
+                to="/buyadog"
+              >
                 BUY A DOTB
               </NavLink>
-              <NavLink className="link_color" to="/roadmap">
+              <NavLink
+                className="link_color"
+                onClick={() => scrollTo("#roadmap")}
+                to="/roadmap"
+              >
                 ROADMAP
               </NavLink>
-              <NavLink className="link_color" to="/team">
+              <NavLink
+                className="link_color"
+                onClick={() => scrollTo("#team")}
+                to="/team"
+              >
                 TEAM
               </NavLink>
-              <NavLink className="link_color" to="/dotb">
+              <NavLink
+                className="link_color"
+                onClick={() => scrollTo("#dotb")}
+                to="/dotb"
+              >
                 DOTB
               </NavLink>
-              <NavLink className="link_color" to="/gallery">
+              <NavLink
+                className="link_color"
+                onClick={() => scrollTo("#gallery")}
+                to="/gallery"
+              >
                 Gallery
               </NavLink>
               <NavLink className="link_color" to="/">
