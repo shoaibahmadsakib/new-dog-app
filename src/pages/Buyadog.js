@@ -109,6 +109,13 @@ const BuyAnApp = () => {
                 <button class="bayc-button mint" type="button">
                   BUY A DOTB ON DIGITALEYES
                 </button>
+            <div class="section_3">
+              <a href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block">
+                <button class="bayc-button mint" type="button">
+                  BUY A DOTB ON MAGICEDEN
+                </button>
+              </a>
+            </div>
               </a>
             </div>
           </div>
