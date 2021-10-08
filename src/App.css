@@ -9,6 +9,69 @@
 .ful_container {
   padding: 50px 110px;
 }
+
+@media screen and (max-width: 900px) {
+  .navbar-brand img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ful_container {
+    padding: 50px 50px;
+  }
+  .first_section,
+  .second_section,
+  .the_space,
+  .barthroom {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .first_section2,
+  .second_section2,
+  .the_space2,
+  .barthroom_part2 {
+    margin-left: 0px !important;
+  }
+  .three_section {
+    flex-wrap: wrap;
+  }
+  .welcome_paragraph {
+  }
+  .welcomw_first_part {
+    width: 100%;
+    padding: 0px !important;
+  }
+  .welcome_second_part {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .community_two_part {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  /* dotb */
+
+  .slide_three_part {
+    grid-gap: 10px !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .distribution_one img {
+    height: 100%;
+    width: 100%;
+  }
+  .distribution_section {
+    display: flex !important;
+    flex-flow: column;
+  }
+  .mutation {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
 .first_section {
   /* flex-wrap: wrap; */
   display: grid;
@@ -50,7 +113,7 @@
 .second_section1 {
   text-align: initial;
 }
-.second_section1 p{
+.second_section1 p {
   text-align: justify;
 }
 .second_section2 {
@@ -69,7 +132,7 @@
 .the_space1 {
   text-align: initial;
 }
-.the_space p{
+.the_space p {
   text-align: justify;
 }
 .the_space2 {
@@ -91,7 +154,7 @@
 .barthroom_part1 {
   text-align: initial;
 }
-.barthroom_part1 p{
+.barthroom_part1 p {
   text-align: justify;
 }
 .barthroom_part2 {
@@ -192,7 +255,7 @@
   grid-template-columns: 26% auto;
 }
 
-.image_styles img{
+.image_styles img {
   border-radius: 10px;
 }
 
@@ -268,6 +331,12 @@
   display: flex;
   flex-flow: column;
   align-items: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+  .email-container {
+    align-items: center;
+  }
 }
 
 .navigation_container {
@@ -363,6 +432,18 @@
   padding: 20px 100px;
   line-height: 38px;
 }
+@media screen and (max-width: 900px) {
+  .condition_container {
+    padding: 20px 50px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 400px) {
+  .condition_container {
+    padding: 20px 20px;
+    text-align: justify;
+  }
+}
 
 .social-icons {
   margin: auto;
@@ -384,13 +465,25 @@
   /* margin-bottom: -37px; */
   z-index: 1;
 }
-
+/* welcome */
 .welcome {
   background-color: #000;
   margin-top: -265px !important;
   position: relative;
   z-index: 100 !important;
 }
+
+@media screen and (max-width: 900px) {
+  .welcome {
+    margin-top: 0px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .welcome {
+    margin-top: 0px !important;
+  }
+}
+/* welcome finish */
 
 .common-title {
   position: sticky;

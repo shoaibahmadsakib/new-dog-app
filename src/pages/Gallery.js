@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "../components/Navigation";
 import { Dropdown, Navbar, Nav, Button } from "react-bootstrap";
 
 const Gallary = ({ data }) => {
+  // useEffect(() => {
+  //   fetch("./data/data.json")
+  //     .then((response) => response.json())
+  //     .then((findresponse) => {
+  //       console.log(findresponse.title);
+  //       this.setState({
+  //         data: findresponse.title,
+  //       });
+  //     });
+  //   return () => {
+   
+  //   };
+  // }, [input]);
   return (
     <div>
       <Navigation />
@@ -112,6 +125,9 @@ const Gallary = ({ data }) => {
           </div>
           <div className="gallary_part">
             <div className="image_part">
+              {
+                console.log(data)
+              }
               {data.map(function (d, index) {
                 return (
                   // <div
@@ -122,7 +138,8 @@ const Gallary = ({ data }) => {
                   //   <img src={d} alt={d} />
                   // </div>
 
-                  <div className="image_styles"
+                  <div
+                    className="image_styles"
                     style={{
                       transition:
                         "opacity 400ms ease 0s, transform 400ms ease 0s",
