@@ -55,6 +55,13 @@ const Navigation = () => {
               <NavLink className="link_color" to="/">
                 PROVENANCE
               </NavLink>
+              <NavLink
+                className="link_color"
+                onClick={() => scrollTo("#members")}
+                to="/members"
+              >
+                MEMBERS
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
