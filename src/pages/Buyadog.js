@@ -105,11 +105,19 @@ const BuyAnApp = () => {
               </p>
             </div>
             <div class="section_3">
-              <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block">
-                <button class="bayc-button1 mint" type="button">
+              <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block" target="_blank">
+                <button class="bayc-button mint" type="button">
                   BUY A DOTB ON DIGITALEYES
                 </button>
+                <br></br>
               </a>
+            <div class="section_4">
+              <a href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block" target="_blank">
+                <button class="bayc-button mint" type="button">
+                  BUY A DOTB ON MAGICEDEN
+                </button>
+              </a>
+            </div>
             </div>
           </div>
 
@@ -222,10 +230,10 @@ const BuyAnApp = () => {
             <div className="community_second_part">
               <div className="community_button">
                 <div className="button1">
-                  <button>button</button>
+                  <button>HowRare.is</button>
                 </div>
                 <div className="button2">
-                  <button>button</button>
+                  <button>RarityMon</button>
                 </div>
               </div>
             </div>

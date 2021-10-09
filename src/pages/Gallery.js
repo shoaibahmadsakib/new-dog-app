@@ -47,17 +47,19 @@ const Gallary = ({ data }) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Aquamarine</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Army Green</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Blue</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Gray</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Galaxy</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Solana</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Clouds</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Light Blue</Dropdown.Item>
                   <Dropdown.Item href="#/action-3" 
                   onClick={()=>console.log( filterItem("Light Blue"))}
-                  >Blue</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">New Punk Blue</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Orange</Dropdown.Item>
+                  >Light Blue</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Dark Blue</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Green</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Light Yellow</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Light Pink</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">Purple</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Yellow</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Gray</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -73,48 +75,32 @@ const Gallary = ({ data }) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">
-                    Admitrals Coat
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Bayc T Black</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Bayc T Red</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Bandelier</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Biker Vest</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Black Holest</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Black Suit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Radioactive</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Galaxy</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Solana</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Zombie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Psychedelic</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Tiger Stripes</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Rainbow</Dropdown.Item>
                   <Dropdown.Item
                     href="#/action-3"
                     onClick={() => filterItem("Yellow")}
                   >
-                    Black T
+                    Zebra Stripes
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Blue Dress</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Bone Necklace</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Bone Tee</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Caveman Pelt</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Cowboy Shirt</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Guayabera</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Hawaiian</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Hip Hop</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Kings Robe</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Lab Coat</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Leather Jacket
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Leather Punk Jacket
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Lumberjack Shirt
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Navy Striped Tee
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Pimp Coat</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Prison Jumpsuit
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Work Vest</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Tattoos</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Clouds</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Splatter</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Pink</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Orange</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Purple</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Gray</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Light Brown</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Black</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">White</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Yellow</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Tan</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Brown</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -130,17 +116,61 @@ const Gallary = ({ data }) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Diamond Stud</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Gold Hoop</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Gold Stud</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Silver Hoop</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Silver Stud</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Solana DOTB Tee</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Solana Collar</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Astronaut Suit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Galaxy Collar</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Psychedelic Collar</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Diamond Collar</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Lab Coat</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Pearl Necklace</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Chef Outfit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Pirate Outfit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Fisherman</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Light Saber</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Farmer</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Gold DOTB Puffer</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Elvish</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Gentlemans Smoker Jacket</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Dollar Gold Chain</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Wizard Outfit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Gold Chain</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Black DOTB Puffer</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Rainbow DOTB Puffer</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Builder Outfit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Green DOTB Puffer</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Musketeer</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Christmas Sweater</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Ying-Yang Shirt</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Yuck Fou Shirt</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Hawaiian Tee</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Samurai</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">DOTB Chain</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Rainbow Shirt</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Blue DOTB Hoodie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Sports Top</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Leo Suit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">HODL Shirt</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Black Suit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Rockers DOTB Jacket</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Black DOTB Hoodie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Hippy Outfit</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Solana DOTB Hoodie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Orange DOTB Hoodie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Skull Shirt</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">DOTB Shirt</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Red DOTB Hoodie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Tuxedo</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Tudor</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Tie Dye Tee</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Turqoise DOTB Hoodie</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">No Outfit</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>
             <div className="reset_button">
               <Button variant="secondary" size="lg">
-                Large button
+                RESET FILTERS
               </Button>
             </div>
           </div>
