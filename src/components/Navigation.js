@@ -2,7 +2,7 @@ import React from "react";
 import "../css/style.css";
 import { Nav, NavItem, Navbar, Container, Dropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/mainLogo.png";
+import Logo from "../assets/Header Transparent.png";
 import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Navigation = () => {
@@ -11,7 +11,7 @@ const Navigation = () => {
       <Navbar expand="lg" variant="dark">
         <Container className="navigation_container">
           <Navbar.Brand href="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt=""  height="90px" width="100%"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
