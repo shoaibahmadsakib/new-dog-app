@@ -14,8 +14,8 @@ const Footer = () => {
           {/* section one  */}
 
           <div className="col-md-4 col-lg-4 col-12 col-sm-12">
-            <div className="email-container   my-auto text-left">
-              <span className="email-label  ">GET ON THE LIST</span>
+            <div className="email-container   my-auto text-centre">
+              <span className="email-label  ">JOIN US TODAY!</span>
               <br />
               <div class="d-flex email-flex">
                 <br />
