@@ -65,12 +65,12 @@ const Navigation = () => {
              
               </NavLink> */}
               <Dropdown>
-                <Dropdown.Toggle style={{backgroundColor:"black"}} id="dropdown-basic">
+                <Dropdown.Toggle style={{backgroundColor:"black" ,border:'none' }} id="dropdown-basic">
                   MEMBER
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Comming soon</Dropdown.Item>
+                <Dropdown.Menu variant="dark">
+                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>Comming soon</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </Nav>

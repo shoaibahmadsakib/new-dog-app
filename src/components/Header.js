@@ -8,6 +8,7 @@ import MainImage from "../assets/bayc-mutant-hero.jpg";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-bootstrap";
 import scrollTo from "gatsby-plugin-smoothscroll";
+import HeaderLogo from "../assets/Header Transparent.png"
 
 const Header = () => {
   return (
@@ -26,7 +27,7 @@ const Header = () => {
               <div className="col-lg-4 col-12 offset-lg-4">
                 <img
                   className="img-fluid d-block mx-auto custom-logo pt-4 "
-                  src="https://ik.imagekit.io/bayc/assets/bayc-logo.png"
+                  src={HeaderLogo}
                   alt="bayc header logo"
                   width="300px"
                   height="300px"
@@ -76,7 +77,7 @@ const Header = () => {
                   </div>
                   <div className="scroll m-auto pr-0 col-2">
                     <div className="rotate my-auto">
-                      <blink>← </blink>SCROLL DOWN
+                      <blink>←SCROLL DOWN </blink>
                     </div>
                   </div>
                 </div>

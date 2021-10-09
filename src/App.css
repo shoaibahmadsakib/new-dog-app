@@ -7,7 +7,7 @@
 /* buy an app */
 
 .header_image_part {
-  background-image: url("../src/assets/header_image.jpg");
+  background-image: url("../src/assets/header_image.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -480,7 +480,7 @@
 
 .footer_logo img {
   height: 200px;
-  width: 200px;
+  width: 100%;
 }
 
 .icon_padding {
@@ -553,7 +553,7 @@
   transition: 0.3s;
 }
 .main-image-header img {
-  margin-top: -3% !important;
+  /* margin-top: -3% !important; */
   z-index: -100 !important;
 }
 

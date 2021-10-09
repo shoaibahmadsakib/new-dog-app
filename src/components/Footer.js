@@ -3,6 +3,7 @@ import "../css/style.css";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-bootstrap"
 import scrollTo from "gatsby-plugin-smoothscroll";
+import FooterLogo from "../assets/Footer Transparent.png"
 
 const Footer = () => {
   return (
@@ -54,7 +55,7 @@ const Footer = () => {
             <div class="footer_logo">
               <img
                 class="img-fluid footer-logo"
-                src="https://ik.imagekit.io/bayc/assets/bayc-footer.png"
+                src={FooterLogo}
                 alt="logo"
               />
             </div>
