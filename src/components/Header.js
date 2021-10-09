@@ -6,7 +6,7 @@ import MainImage from "../assets/bayc-mutant-hero.jpg";
 // import Logo3 from "../assets/logo3.svg";
 // import Logo4 from "../assets/logo4.svg";
 import { Link } from "react-router-dom";
-import { NavLink } from "react-bootstrap"
+import { NavLink } from "react-bootstrap";
 import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Header = () => {
@@ -74,18 +74,20 @@ const Header = () => {
                       </button>
                     </NavLink>
                   </div>
-                  {/* <div className="scroll m-auto pr-0 col-2">
-                    <div className="rotate my-auto">← SCROLL DOWN</div>
-                  </div> */}
+                  <div className="scroll m-auto pr-0 col-2">
+                    <div className="rotate my-auto">
+                      <blink>← </blink>SCROLL DOWN
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="mb-5 row">
               <div className="col-lg-8 col-12">
                 <p className="common-p">
-                  An NFT collection with 8,888 dogs, where the NFT token itself doubles as
-                  your membership to the DOTB Exclusive Members Club. The club is open!
-                  Get your DOTB today!
+                  An NFT collection with 8,888 dogs, where the NFT token itself
+                  doubles as your membership to the DOTB Exclusive Members Club.
+                  The club is open! Get your DOTB today!
                 </p>
               </div>
             </div>
