@@ -52,8 +52,8 @@ const Navigation = () => {
               >
                 GALLERY
               </NavLink>
-              <NavLink className="link_color" to="/">
-                PROVENANCE
+              <NavLink className="link_color" to="#data">
+                DATA
               </NavLink>
               {/* <NavLink
                 className="link_color"

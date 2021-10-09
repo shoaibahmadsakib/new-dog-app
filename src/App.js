@@ -10,6 +10,7 @@ import Team from "./pages/Team";
 import roadmap from "./pages/roadmap";
 import Gallery from "./pages/Gallery";
 import dotb from "./pages/dotb";
+import data from "./pages/Data";
 const { items } = require("./data/data.json");
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           <Route path="/roadmap" component={roadmap} />
           <Route path="/gallery" component={() => <Gallery data={data} />} />
           <Route path="/dotb" component={dotb} />
+          <Route path="/data" component={data} />
         </Switch>
 
         <Footer />
