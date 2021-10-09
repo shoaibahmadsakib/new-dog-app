@@ -74,9 +74,9 @@ const Header = () => {
                       </button>
                     </NavLink>
                   </div>
-                  <div className="scroll m-auto pr-0 col-2">
+                  {/* <div className="scroll m-auto pr-0 col-2">
                     <div className="rotate my-auto">← SCROLL DOWN</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

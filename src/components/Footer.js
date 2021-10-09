@@ -82,13 +82,13 @@ const Footer = () => {
 
               <div className="footer_align2 col-lg-12 col-sm-6 col-6 d-inline-block p-0 ">
                 <p id="terms" class="copyright text-right">
-                  <NavLink
+                  {/* <NavLink
                     class="link"
                     onClick={() => scrollTo("#terms")}
                     href="/terms"
                   >
                     BAYC Terms &amp; Conditions
-                  </NavLink>
+                  </NavLink> */}
                   <br />
                   {/* <a className="link" href="#/mayc/terms">
                     MAYC Terms &amp; Conditions
