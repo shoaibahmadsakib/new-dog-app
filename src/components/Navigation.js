@@ -71,8 +71,7 @@ const Navigation = () => {
 
                 <Dropdown.Menu variant="dark">
                   <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>BREEDING (COMING SOON)</Dropdown.Item>
-                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>MERCHANDISE (COMING SOON)</Dropdown.Item>
-                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>DERIVATIVES (COMING SOON)</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>MERCH (COMING SOON)</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </Nav>
