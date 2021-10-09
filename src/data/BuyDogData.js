@@ -2,7 +2,7 @@ export const BuyDogData = [
   {
     boredAppHeading: "WELCOME TO THE DOGS ON THE BLOCK",
     boredAppPara:
-      "  BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, andgrants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.",
+      "  DOTB is a collection of 8,888 Dog NFTs living on the Solana blockchain. Your Dog on the Block doubles up as your Exclusive membership card, and grants special access to the members-only benefits!",
   },
 ];
 
@@ -10,38 +10,38 @@ export const FairDistribution = [
   {
     heade: "FAIR DISTRIBUTION",
     paragraph:
-      "  There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There are no price tiers; BAYC membership costs the same for everyone.",
+      "  A fair launch means that it is fair for everyone! We had no bonding curves and the mint price always remained the same. Each membership at the time of mint cost 0.375 SOL.",
 
     notePart:
-      "   Note: Thirty apes are being withheld from the sale. These will be used for giveaways, puzzle rewards—and for the creators' BAYC memberships.",
+      "   Note: Note: 50 dogs have been held back. These will be used for giveaways, future promotions and for the creators' DOTB memberships.",
   },
 ];
 
 export const TheSpace = [
   {
-    theSpaceHeader: "THE SPECS",
+    theSpaceHeader: "THE TECHNICAL SPECS",
     theSpacePara:
-      "     Each Bored Ape is unique and programmatically generated from over 170 possible traits, including expression, headwear, clothing, and more. All apes are dope, but some are rarer than others. The apes are stored as ERC-721 tokens on the Ethereum blockchain and hosted  on IPFS. (See Record and Proof.) Purchasing an ape costs 0.08 ETH. To access members-only areas such as THE BATHROOM, Apeholders will need to be signed into their Metamask Wallet.",
+      "     Each Dog on the Block is unique and programmatically generated with a possibility of 21 different skins and 152 unique traits, including expression, headwear, outfits, and more. All dogs are cute, but some do happen to be rarer than others. The dogs are stored as tokens on the Solana blockchain and hosted on Arweave. At the time of the mint purchasing a dog cost only 0.375 SOL. To gain access to the members-only exclusive areas, DOTB holders will need to be signed into the wallet which holds the NFT.",
   },
 ];
 
 export const theBarthroom = [
   {
-    barthroomHeader: "THE BATHROOM",
+    barthroomHeader: "THE MERCHANDISE",
     barthroompara:
-      "   The BAYC Bathroom will become operational once the presale period  is over. It contains a canvas accessible only to wallets containing at least one ape. Like any good dive bar bathroom, thisis the place to draw, scrawl, or write expletives. Each ape-holderwill be able to paint a pixel on the bathroom wall every fifteen minutes. Think of it as a collaborative art experiment for the cryptosphere. A members-only canvas for the discerning minds of crypto twitter. We're pretty sure it's going to be full of dicks.",
+      "   By being a DOTB holder you will get special access to the limited merch drops that will happen on a frequent basis! This is something that is exclusive to holders only and stock will be very limited. Buying physical items with a digital NFT also means that the merchandise can be officially recognised as legit and purchased through the DOTB merchandise store! We expect items to go fast upon release so make sure to be there first as these will be based on a first come, first serve basis!",
   },
 ];
 
 
 export const WelcomePart=[
   {
-    welcomeHeader:"WELCOME TO THE CLUB",
-    welcomePara:"   When you buy a Bored Ape, you’re not simply buying an avatar or a provably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Bored Ape can serve as your digital identity, and open digital doors for you."
+    welcomeHeader:"WELCOME TO THE BLOCK",
+    welcomePara:"   When you buy a Dog on the Block, you’re not just simply buying an avatar or a profile picture. You are gaining membership access to an exclusive club whose benefits and offerings will increase over time as more utility is created for the community."
   }
 ]
 
 export const Community =[{
-  communityHeader:"COMMUNITY TOOLS",
-  communityPara:" Here are some helpful tools created by the Bored Ape Yacht Clubcommunity. Please note that these are unofficial in nature.Every assignment of an ape's overall value or rarity is inherently subjective."
+  communityHeader:"COMMUNITY LINKS",
+  communityPara:" Some helpful links which will help you find the rarity of your NFT. Please note that these are third party providers and the ranks/rarity has been provided by themselves. Every assignment of a dog's overall value or rarity is inherently subjective."
 }]

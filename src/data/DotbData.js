@@ -1,26 +1,26 @@
 export const DotbData =[
     {
         dotbHeader:"THE DOTB",
-        dotbPara:"   BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to  members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation."
+        dotbPara:"   Each dog is unique and special to itself, but some dogs are rarer than the others. Dogs come in different rarities ranging from common to legendary! Each dog will cost 0.375 SOL to mint. Try your luck and you might even mint a legendary radioactive, solana, or zombie dog. Did we also mention that your dog serves as your membership to the block and will give you access to upcoming events and voting rights as the project progresses. Dogs live out their lives on the Solana blockchain allowing anyone to trade, buy or sell with each other and of course give full rights of ownership to their masters (no Larva Labs bs)."
     }
 ]
 
 export const Serums =[
     {
-        serumHeader:"SERUMS (FOR BAYC MEMBERS)",
-        serumPara:" One way to create a MUTANT is when a Bored Ape ingests a vial of mutant serum. There are three tiers of mutant serum vials: M1, M2,and Mega Mutant (M3). A snapshot of all Bored Ape token holders was taken at 4pm ET on 8/28/21, and all mutant serums that will exist have been airdropped at a random distribution to corresponding wallets. If a Bored Ape ingests an M1 or M2 serum, the resulting MUTANT will retain traits of the original ape. If a Bored Ape ingests an M3 serum? Who knows.",
+        serumHeader:"DERIVATIVES (FOR DOTB HOLDERS)",
+        serumPara:" With DOTB we are going to allow derivatives to be a thing. This will allow holders of the NFT to create artwork based on the NFT they hold! Whether that is changing the background, making it 3D, changing the colours or even adding in other cool attributes then that is something that we are happy to offer to our holders within the community! These derivative NFTs can be sold on secondary markets and the sale proceeds will go to the artist that created it!",
 
-        notepart:" Note: Thirty apes are being withheld from the sale. These will be used for giveaways, puzzle rewards—and for the creators' BAYC memberships."
+        notepart:" Note: 50 dogs have been held back. These will be used for giveaways, future promotions and for the creators' DOTB memberships."
     },
   
 ]
 
 export const Distribution=[{
     distributionHeader:"ROYALTIES STRUCTURE",
-    distributionPara:" A total of 10,000 Mutant Serums have been airdropped to all BAYC token holders. 10,000 Mutant Apes will be available to mint in apublic Dutch Auction. The price to mint a Mutant will start 3 ETH, and gradually reduce to .01 ETH over the course of 9 hours. This is to allow the community to set a fair starting price and,hopefully, avoid any gas war. At the time of minting, Mutant Apes will be unrevealed. Once the public sale has concluded, arandomized starting index will be set and all Mutant Apes will be revealed. This is to prevent anyone, including the founders, from knowing which mutant will be minted during the sale. After the starting index is set and the mutants are revealed, BAYC members will be able to begin mutating their apes with serums here on th site."
+    distributionPara:" On every secondary market sale there will be a 2.5% royalty fee applied on top of the marketplace transaction fee. This is collected within a royalty pool and will be distributed on a monthly basis. 100% of this royalty goes back to the community and is split 80/20, 80% goes to holders dependant on how many NFTs they hold and 20% goes to OG minters!"
 }]
 
 export const MutationData =[{
     mutationHeader:"BREEDING (FOR DOTB HOLDERS)",
-    mutationPara:"  BAYC token holders will be able to begin applying their airdropped serums to their Bored Apes upon completion of the public sale. The exact time will be announced on Twitter (@BoredapeYC) and in our Discord. Applying a serum to a Bored Ape will burn that serum, and result in a MUTANT NFT which may retain aspects of the original Bored Ape. The Bored Ape NFT will not be harmed. THERE IS NO SET TIME LIMIT FOR APPLYING SERUMS. Remember, a Bored Ape can only be mutated via a vial of a certain type once. We will introduce a method for checking whether a Bored Ape has been exposed to a given vial type."
+    mutationPara:"  Breeding for DOTB NFTs will be a feature that gets implemented in the later life of development. There are a few options and routes we can take for this and we are going to put it towards a community vote. Breeding will be a very cool feature which will require 2 DOTB NFTs to be able to breed and get a pup in return!"
 }]

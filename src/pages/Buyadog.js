@@ -147,7 +147,7 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      10,000 Provably-rare Bored Ape tokens
+                      8,888 Unique Hand-drawn Dogs
                     </p>
                   </div>
                 </div>
@@ -162,7 +162,7 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      10,000 Provably-rare Bored Ape tokens
+                      2.5% Royalties on Secondary Sales
                     </p>
                   </div>
                 </div>
@@ -176,7 +176,7 @@ const BuyAnApp = () => {
                     />
                     <div className="welcome_image_text">
                       <p className="welcome_text">
-                        10,000 Provably-rare Bored Ape tokens
+                        Fair Launch With No Presale! All dogs cost 0.375 SOL
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      10,000 Provably-rare Bored Ape tokens
+                      
                     </p>
                   </div>
                 </div>
@@ -207,7 +207,7 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      10,000 Provably-rare Bored Ape tokens
+                      Ownership and Commercial Rights Given to the Holder of the NFT
                     </p>
                   </div>
                 </div>

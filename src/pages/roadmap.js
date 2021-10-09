@@ -1,14 +1,14 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Rodemap from "../assets/rodemap.jpeg";
+import Roadmap from "../assets/rodemap.jpeg";
 
 const roadmap = () => {
   return (
     <div>
       <Navigation />
       <div className="ful_container">
-        <div className="rodemap_photo">
-          <img src={Rodemap} alt="Rodemap" height="100%" width="100%" />
+        <div className="roadmap_photo">
+          <img src={Roadmap} alt="Roadmap" height="100%" width="100%" />
         </div>
       </div>
     </div>
