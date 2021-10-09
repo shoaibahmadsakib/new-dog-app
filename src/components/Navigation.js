@@ -60,7 +60,7 @@ const Navigation = () => {
                 onClick={() => scrollTo("#members")}
                 to="/members"
               >
-                MEMBERS
+              <blink>MEMBERS</blink>  
               </NavLink>
             </Nav>
           </Navbar.Collapse>
