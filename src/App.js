@@ -10,7 +10,6 @@ import Team from "./pages/Team";
 import roadmap from "./pages/roadmap";
 import Gallery from "./pages/Gallery";
 import dotb from "./pages/dotb";
-import members from "./pages/Members";
 const { items } = require("./data/data.json");
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
   const fetchData = () => {
     let d = [];
     Object.keys(items)
-      
+      .slice(0,200)
 
       .map(function (key) {
         fetch(items[key].link)
@@ -54,7 +53,6 @@ function App() {
           <Route path="/roadmap" component={roadmap} />
           <Route path="/gallery" component={() => <Gallery data={data} />} />
           <Route path="/dotb" component={dotb} />
-          <Route path="/members" component={members} />
         </Switch>
 
         <Footer />

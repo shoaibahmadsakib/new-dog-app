@@ -6,6 +6,7 @@ import MainImage from "../assets/bayc-mutant-hero.jpg";
 // import Logo3 from "../assets/logo3.svg";
 // import Logo4 from "../assets/logo4.svg";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-bootstrap"
 import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Header = () => {
@@ -67,11 +68,11 @@ const Header = () => {
                       <br />
                       THE BLOCK
                     </h1>
-                    <Link to="/buyadog">
+                    <NavLink href="/buyadog">
                       <button className="bayc-button mb-4 w-100" type="button">
                         ENTER THE SITE
                       </button>
-                    </Link>
+                    </NavLink>
                   </div>
                   <div className="scroll m-auto pr-0 col-2">
                     <div className="rotate my-auto">← SCROLL DOWN</div>

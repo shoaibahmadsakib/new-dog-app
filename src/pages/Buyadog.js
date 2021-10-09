@@ -20,9 +20,7 @@ const BuyAnApp = () => {
     <div>
       <Navigation />
       <div className="ful_container">
-        <div className="header_image_part">
-
-        </div>
+        <div className="header_image_part"></div>
         <div className="first_section">
           {BuyDogData.map((data, key) => {
             return (
@@ -100,24 +98,29 @@ const BuyAnApp = () => {
             </div>
             <div class="section_2">
               <p class="common-p mb-lg-0">
-                The initial sale has sold out. To get your DOTB, check out
-                the collection on MagicEden or DigitalEyes.
+                The initial sale has sold out. To get your DOTB, check out the
+                collection on MagicEden or DigitalEyes.
               </p>
             </div>
             <div class="section_3">
-              <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block" target="_blank">
-                <button class="bayc-button mint" type="button">
+              <a
+                href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block"
+                target="_blank"
+              >
+                <button class="bayc-button1 mint" type="button">
                   BUY A DOTB ON DIGITALEYES
                 </button>
                 <br></br>
               </a>
-            <div class="section_4">
-              <a href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block" target="_blank">
-                <button class="bayc-button mint" type="button">
+
+              <a
+                href="https://magiceden.io/marketplace?collection_symbol=dogs_on_the_block"
+                target="_blank"
+              >
+                <button class="bayc-button1 mint" type="button">
                   BUY A DOTB ON MAGICEDEN
                 </button>
               </a>
-            </div>
             </div>
           </div>
 

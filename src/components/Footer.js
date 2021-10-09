@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-bootstrap"
 import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
               <div class="d-flex email-flex">
                 <br />
                 {/* form is Started  */}
-                <form id="email-submit" className="email-form">
+                {/* <form id="email-submit" className="email-form">
                   <input
                     id="email-address"
                     className="m-0 email-input-text"
@@ -42,7 +43,7 @@ const Footer = () => {
                     className="email-submit"
                     type="submit"
                   ></button>
-                </form>
+                </form> */}
                 {/* form is Ended  */}
               </div>
             </div>
@@ -71,7 +72,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="col-lg-12 col-sm-6 ">
+              <div className="footer_align1 col-lg-12 col-sm-6 ">
                 <p className="copyright float-right ">
                   <span className="copy-left text-right">
                     Dogs on The Block © 2021
@@ -79,17 +80,19 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-lg-12 col-sm-6 col-6 d-inline-block p-0 ">
+              <div className="footer_align2 col-lg-12 col-sm-6 col-6 d-inline-block p-0 ">
                 <p id="terms" class="copyright text-right">
-                  <Link class="link"
-                   onClick={() => scrollTo("#terms")}
-                  to="/terms">
-                     BAYC Terms &amp; Conditions 
-                  </Link>
+                  <NavLink
+                    class="link"
+                    onClick={() => scrollTo("#terms")}
+                    href="/terms"
+                  >
+                    BAYC Terms &amp; Conditions
+                  </NavLink>
                   <br />
-                  <a className="link" href="#/mayc/terms">
+                  {/* <a className="link" href="#/mayc/terms">
                     MAYC Terms &amp; Conditions
-                  </a>
+                  </a> */}
                 </p>
               </div>
             </div>

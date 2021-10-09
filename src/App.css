@@ -19,7 +19,17 @@
 .ful_container {
   padding: 0px 110px;
 }
+.section_2 {
+  padding: 0px 50px;
+}
 
+.bayc-button1 {
+}
+.section_3 {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
 @media screen and (max-width: 900px) {
   .navbar-brand img {
     width: 100%;
@@ -27,7 +37,7 @@
   }
 
   .ful_container {
-    padding: 50px 50px;
+    padding: 50px 20px;
   }
   .first_section,
   .second_section,
@@ -43,12 +53,17 @@
     margin-left: 0px !important;
   }
   .three_section {
-    
-    flex-wrap: wrap;
     grid-gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px !important;
+
   }
-  .section_3{
-    padding: 0px 60px;
+  .section_2 {
+    padding: 5px !important;
+  }
+  .section_3 {
+   
   }
 
   .welcome_paragraph {
@@ -69,7 +84,6 @@
 
   /* dotb */
 
- 
   .slide_three_part {
     grid-gap: 10px !important;
     display: flex !important;
@@ -91,35 +105,33 @@
 }
 
 /* end media querary */
-.welcomeclub{
-  padding:100px 0px 100px 0px;
+.welcomeclub {
+  padding: 100px 0px 100px 0px;
 }
 
-.barthroom{
-  padding:100px 0px 100px 0px;
+.barthroom {
+  padding: 100px 0px 100px 0px;
 }
 
 /* button part */
-.community_button{
+.community_button {
   display: flex;
-    flex-direction: column;
-    grid-gap: 11px;
-
+  flex-direction: column;
+  grid-gap: 11px;
 }
 
-
-
-.button1 button , .button2 button{
+.button1 button,
+.button2 button {
   background-color: #a6efd0;
-    border-radius: 8px;
-    color: #000;
-    border: 0;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 5%;
-    margin: auto auto;
-    transition: .3s;
-    padding: 17px 90px;
+  border-radius: 8px;
+  color: #000;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5%;
+  margin: auto auto;
+  transition: 0.3s;
+  padding: 17px 90px;
 }
 
 .first_section {
@@ -361,7 +373,7 @@
 }
 
 .distribution_part {
-  text-align: start;
+  text-align: justify;
 }
 
 /* mutation */
@@ -481,7 +493,9 @@
   text-decoration: none;
   color: #959595;
 }
-
+.copyright a{
+  color: #fff;
+}
 /* main button */
 
 .Main_part {
@@ -581,7 +595,7 @@
   margin: auto auto;
   transition: 0.3s;
 }
-.bayc-button1{
+.bayc-button1 {
   background-color: #000;
   border-radius: 8px;
   color: #fff;
@@ -668,4 +682,31 @@ input {
 
 .link :hover {
   color: #ffff !important;
+}
+
+/* footer media */
+
+@media screen and (max-width: 900px) {
+  .third_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_align1{
+    display: flex;
+    justify-content: center;
+  }
+  .text-right{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* footer */
+.third_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
