@@ -495,6 +495,7 @@
 }
 .copyright a{
   color: #fff;
+  /* text-align: center; */
 }
 /* main button */
 
@@ -534,6 +535,10 @@
   .condition_container {
     padding: 20px 20px;
     text-align: justify;
+  }
+  .copyright a{
+    color: #fff;
+    text-align: center;
   }
 }
 
