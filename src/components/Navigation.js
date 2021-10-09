@@ -66,11 +66,13 @@ const Navigation = () => {
               </NavLink> */}
               <Dropdown>
                 <Dropdown.Toggle style={{backgroundColor:"black" ,border:'none' }} id="dropdown-basic">
-                  MEMBER
+                  MEMBERS
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant="dark">
-                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>Comming soon</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>BREEDING (COMING SOON)</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>MERCHANDISE (COMING SOON)</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" style={{color:'white',textAlign:"center" }}>DERIVATIVES (COMING SOON)</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </Nav>
