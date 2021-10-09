@@ -177,7 +177,7 @@ const Gallary = ({ data }) => {
                       />
                     </a>
 
-                    <p>{d.name}</p>
+                    <p>DOTB #{index}</p>
                   </div>
                 );
               })}

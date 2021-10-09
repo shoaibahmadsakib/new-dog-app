@@ -106,7 +106,7 @@ const BuyAnApp = () => {
             </div>
             <div class="section_3">
               <a href="https://digitaleyes.market/collections/Dogs%20on%20the%20Block">
-                <button class="bayc-button mint" type="button">
+                <button class="bayc-button1 mint" type="button">
                   BUY A DOTB ON DIGITALEYES
                 </button>
               </a>

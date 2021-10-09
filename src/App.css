@@ -43,8 +43,14 @@
     margin-left: 0px !important;
   }
   .three_section {
+    
     flex-wrap: wrap;
+    grid-gap: 10px;
   }
+  .section_3{
+    padding: 0px 60px;
+  }
+
   .welcome_paragraph {
   }
   .welcomw_first_part {
@@ -216,6 +222,7 @@
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  color: black;
 }
 
 /* welcome part */
@@ -564,12 +571,23 @@
 }
 
 .bayc-button {
-  background-color: #0a0a09;
+  background-color: #a6efd0;
   border-radius: 8px;
-  color: rgb(255, 255, 255);
+  color: #000;
   border: 0;
   font-weight: 700;
   font-size: 16px;
+  padding: 5%;
+  margin: auto auto;
+  transition: 0.3s;
+}
+.bayc-button1{
+  background-color: #000;
+  border-radius: 8px;
+  color: #fff;
+  border: 0;
+  font-weight: 400;
+  font-size: 15px;
   padding: 5%;
   margin: auto auto;
   transition: 0.3s;
@@ -643,7 +661,7 @@ input {
 }
 
 .link {
-  color: #bfc500;
+  color: #a6efd0;
   text-decoration: underline;
   word-wrap: break-word;
 }

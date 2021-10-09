@@ -17,11 +17,14 @@ function App() {
   const fetchData = () => {
     let d = [];
     Object.keys(items)
-      .slice(0, 200)
+      
+
       .map(function (key) {
         fetch(items[key].link)
           .then((re) => re.json())
+
           .then((res) => {
+      
             d.push(res);
             console.log(res);
             // d.push(res.external_url);
