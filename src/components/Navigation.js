@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/style.css";
-import { Nav, NavItem, Navbar, Container } from "react-bootstrap";
+import { Nav, NavItem, Navbar, Container, Dropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/mainLogo.png";
 import scrollTo from "gatsby-plugin-smoothscroll";
@@ -55,13 +55,24 @@ const Navigation = () => {
               <NavLink className="link_color" to="/">
                 PROVENANCE
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 className="link_color"
                 onClick={() => scrollTo("#members")}
                 to="/members"
               >
-              <blink>MEMBERS</blink>  
-              </NavLink>
+                  MEMBERS
+             
+             
+              </NavLink> */}
+              <Dropdown>
+                <Dropdown.Toggle style={{backgroundColor:"black"}} id="dropdown-basic">
+                  MEMBER
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Comming soon</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>

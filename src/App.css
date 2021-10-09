@@ -716,7 +716,7 @@ input {
   align-items: center;
 }
 blink {
-  animation: blink 3s infinite;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {
