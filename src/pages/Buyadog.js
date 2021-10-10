@@ -160,7 +160,7 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      2.5% Royalties on Every Secondary Sales
+                      2.5% Royalties on All Secondary Sales
                     </p>
                   </div>
                 </div>
