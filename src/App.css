@@ -574,6 +574,9 @@
   .welcome {
     margin-top: 0px !important;
   }
+  .four_image{
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 480px) {
   .welcome {
