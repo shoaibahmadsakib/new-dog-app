@@ -13,7 +13,7 @@ export const FairDistribution = [
       "  A fair launch means that it is fair for everyone! We had no bonding curves and the mint price always remained the same. Each membership at the time of mint cost 0.375 SOL.",
 
     notePart:
-      "   Note: Note: 50 dogs have been held back. These will be used for giveaways, future promotions and for the creators' DOTB memberships.",
+      "   Note: 50 dogs have been held back. These will be used for giveaways, future promotions and for the creators' DOTB memberships.",
   },
 ];
 
