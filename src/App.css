@@ -37,7 +37,7 @@
   }
 
   .ful_container {
-    padding: 50px 20px;
+    padding: 10px 20px;
   }
   .first_section,
   .second_section,
@@ -576,6 +576,13 @@
   }
   .four_image{
     grid-template-columns: 1fr;
+  }
+
+  /* image */
+
+  .header_image_part{
+height: 100px;
+margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 480px) {
