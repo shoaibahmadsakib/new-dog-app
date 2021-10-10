@@ -146,9 +146,7 @@ const BuyAnApp = () => {
                     />
                   </div>
                   <div className="welcome_image_text">
-                    <p className="welcome_text">
-                      8,888 Unique Hand-drawn Dogs
-                    </p>
+                    <p className="welcome_text">8,888 Unique Hand-drawn Dogs</p>
                   </div>
                 </div>
 
@@ -191,9 +189,7 @@ const BuyAnApp = () => {
                     />
                   </div>
                   <div className="welcome_image_text">
-                    <p className="welcome_text">
-                      
-                    </p>
+                    <p className="welcome_text"></p>
                   </div>
                 </div>
 
@@ -207,7 +203,8 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      Ownership and Commercial Rights Given to the Holder of the NFT
+                      Ownership and Commercial Rights Given to the Holder of the
+                      NFT
                     </p>
                   </div>
                 </div>
@@ -233,10 +230,16 @@ const BuyAnApp = () => {
             <div className="community_second_part">
               <div className="community_button">
                 <div className="button1">
-                  <button>HowRare.is</button>
+                  <a href="https://howrare.is/dogsontheblock">
+                    {" "}
+                    <button>HowRare.is</button>
+                  </a>
                 </div>
                 <div className="button2">
-                  <button>RarityMon</button>
+                  <a href="https://www.raritymon.com/Collections?collection=dogsontheblock">
+                    {" "}
+                    <button>RarityMon</button>
+                  </a>
                 </div>
               </div>
             </div>
