@@ -680,11 +680,11 @@ blink {
     margin-top: 0px !important;
   }
   .four_image {
-    display: flex;
-    flex-direction: column;
+   
+    grid-template-columns: 1fr 1fr;
   }
   .four_image img {
-    height: 240px;
+    height: auto;
   }
   /* image */
 
