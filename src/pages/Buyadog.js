@@ -160,7 +160,7 @@ const BuyAnApp = () => {
                   </div>
                   <div className="welcome_image_text">
                     <p className="welcome_text">
-                      2.5% Royalties on Secondary Sales
+                      2.5% Royalties on All Secondary Sales
                     </p>
                   </div>
                 </div>
@@ -174,7 +174,7 @@ const BuyAnApp = () => {
                     />
                     <div className="welcome_image_text">
                       <p className="welcome_text">
-                        Fair Launch With No Presale! All dogs cost 0.375 SOL
+                        Fair Launch With No Presale! All Dogs Cost 0.375 SOL
                       </p>
                     </div>
                   </div>
@@ -189,7 +189,9 @@ const BuyAnApp = () => {
                     />
                   </div>
                   <div className="welcome_image_text">
-                    <p className="welcome_text"></p>
+                    <p className="welcome_text">
+                      Exclusive Membership Access
+                    </p>
                   </div>
                 </div>
 
@@ -230,13 +232,15 @@ const BuyAnApp = () => {
             <div className="community_second_part">
               <div className="community_button">
                 <div className="button1">
-                  <a href="https://howrare.is/dogsontheblock">
+                  <a href="https://howrare.is/dogsontheblock"
+                     target="_blank">
                     {" "}
                     <button>HowRare.is</button>
                   </a>
                 </div>
                 <div className="button2">
-                  <a href="https://www.raritymon.com/Collections?collection=dogsontheblock">
+                  <a href="https://www.raritymon.com/Collections?collection=dogsontheblock"
+                     target="_blank">
                     {" "}
                     <button>RarityMon</button>
                   </a>

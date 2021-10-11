@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from "../components/Header";
-// import Mainpart from "../components/Mainpart";
+import Navigation from "../components/Navigation";
+
 const Data = () => {
     return (
         <div>
-            <Header />
-            {/* <Mainpart /> */}
+            <Navigation/>
         </div>
     )
 }
