@@ -636,6 +636,7 @@ blink {
     flex-direction: column;
     grid-gap: 30px;
   }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -679,9 +680,12 @@ blink {
     margin-top: 0px !important;
   }
   .four_image {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
-
+  .four_image img {
+    height: 240px;
+  }
   /* image */
 
   .header_image_part {
@@ -698,11 +702,10 @@ blink {
   .welcome {
     margin-top: -269px;
   }
-  .footer_logo img{
+  .footer_logo img {
     height: 100%;
     width: 100%;
   }
- 
 }
 
 /* footer media */
