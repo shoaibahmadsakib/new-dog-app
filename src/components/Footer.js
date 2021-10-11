@@ -19,33 +19,7 @@ const Footer = () => {
               <br />
               <div class="d-flex email-flex">
                 <br />
-                {/* form is Started  */}
-                {/* <form id="email-submit" className="email-form">
-                  <input
-                    id="email-address"
-                    className="m-0 email-input-text"
-                    type="email"
-                    placeholder="Email Address"
-                    required
-                  />
-                  <div
-                    aria-hidden="true"
-                    style={{ position: "absolute", left: "-5000px" }}
-                  >
-                    <input
-                      type="text"
-                      name="b_c979ffabc41007fd79ffe121b_b785550a9e"
-                      tabIndex={-1}
-                      defaultValue
-                    />
-                  </div>
-                  <button
-                    name="subscribe"
-                    className="email-submit"
-                    type="submit"
-                  ></button>
-                </form> */}
-                {/* form is Ended  */}
+          
               </div>
             </div>
           </div>
@@ -106,29 +80,3 @@ const Footer = () => {
 
 export default Footer;
 
-// <div class="third_item_icon">
-// <div class="icon_padding">
-//   <a href="https://discord.gg/dogsontheblock">
-//     <img src={Logo3} alt="" />
-//   </a>
-//   <a href="https://twitter.com/dogsontheblock">
-//     <img src={Logo4} alt="" />
-//   </a>
-// </div>
-// <div class="copyright_text">
-//   <p class="copyright_text_right">
-//     <span className="copy-left">Dogs on The Block © 2021</span>
-//   </p>
-// </div>
-// <div class="copyright_text">
-//   <p id="terms" class="copyright_text-right">
-//     <Link class="link" to="/terms">
-//       BAYC Terms &amp; Conditions
-//     </Link>
-//     <br />
-//     <a class="link" href="/mayc/terms">
-//       MAYC Terms &amp; Conditions abc
-//     </a>
-//   </p>
-// </div>
-// </div>

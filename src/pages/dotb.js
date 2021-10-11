@@ -4,6 +4,9 @@ import Image1 from "../assets/1.png";
 import Image2 from "../assets/2.jpeg";
 import Image3 from "../assets/3.jpeg";
 import Image4 from "../assets/4.jpeg";
+import image5 from "../assets/6.jpeg";
+import image7 from "../assets/7.jpeg";
+
 import distribution from "../assets/distibution.gif";
 import serumMachine from "../assets/serum-machine.gif";
 import { DotbData, Serums, Distribution, MutationData } from "../data/DotbData";
@@ -55,16 +58,16 @@ const dotb = () => {
         <div className="slide_dog">
           <div className="slide_three_part">
             <div className="first_slide">
-              <img src={Image1} alt="" />
-              <p>sakib</p>
+              <img src={Image3} alt="" />
+              <p>anything</p>
             </div>
             <div className="first_slide">
-              <img src={Image1} alt="" />
-              <p>sakib</p>
+              <img src={Image4} alt="" />
+              <p>anything</p>
             </div>
             <div className="first_slide">
-              <img src={Image1} alt="" />
-              <p>sakib</p>
+              <img src={Image2} alt="" />
+              <p>anything</p>
             </div>
           </div>
         </div>
