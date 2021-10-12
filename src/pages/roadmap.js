@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Roadmap from "../assets/roadmap.jpeg";
+import Roadmap from "../assets/rodemap.jpeg";
 
 const roadmap = () => {
   return (
