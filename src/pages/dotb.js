@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Image1 from "../assets/1.png";
+import Image1 from "../assets/1.jpeg";
 import Image2 from "../assets/2.jpeg";
 import Image3 from "../assets/3.jpeg";
 import Image4 from "../assets/4.jpeg";
