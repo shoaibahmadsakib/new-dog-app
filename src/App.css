@@ -567,6 +567,10 @@ blink {
     display: flex !important;
     flex-direction: column;
   }
+  .the_space2 img {
+    width: 100%;
+    height: 200px;
+  }
   .first_section2,
   .second_section2,
   .the_space2,
@@ -636,7 +640,6 @@ blink {
     flex-direction: column;
     grid-gap: 30px;
   }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -680,7 +683,6 @@ blink {
     margin-top: 0px !important;
   }
   .four_image {
-   
     grid-template-columns: 1fr 1fr;
   }
   .four_image img {
