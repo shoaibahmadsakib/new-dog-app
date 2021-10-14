@@ -569,7 +569,7 @@ blink {
   }
   .the_space2 img {
     width: 100%;
-    height: 200px;
+    height: 250px;
   }
   .first_section2,
   .second_section2,
@@ -652,6 +652,10 @@ blink {
     display: flex !important;
     flex-direction: column;
     grid-gap: 30px;
+  }
+
+  .barthroom_part2 img {
+    height: 250px;
   }
 }
 
