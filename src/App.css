@@ -655,7 +655,12 @@ blink {
   }
 
   .barthroom_part2 img {
+    width: 100%;
     height: 250px;
+  }
+  .barthroom{
+    /* padding: 0px; */
+    margin-top: 0px;
   }
 }
 
