@@ -5,8 +5,11 @@ import image8 from "../assets/8.jpg"
 import Image2 from "../assets/2.jpeg";
 import Image3 from "../assets/3.jpeg";
 import Image4 from "../assets/4.jpeg";
-import Welcome1 from "../assets/welcome1.png";
-
+import First from "../assets/first.png"
+import Second from "../assets/second.png";
+import Third from "../assets/third.png";
+import Forth from "../assets/forth.png";
+import Fifth from "../assets/fifth.png";
 import {
   BuyDogData,
   Community,
@@ -142,7 +145,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Welcome1}
+                      src={First}
                       alt="welcome image"
                     />
                   </div>
@@ -155,7 +158,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Welcome1}
+                      src={Second}
                       alt="welcome image"
                     />
                   </div>
@@ -170,7 +173,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Welcome1}
+                      src={Third}
                       alt="welcome image"
                     />
                     <div className="welcome_image_text">
@@ -185,7 +188,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Welcome1}
+                      src={Forth}
                       alt="welcome image"
                     />
                   </div>
@@ -200,7 +203,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Welcome1}
+                      src={Fifth}
                       alt="welcome image"
                     />
                   </div>

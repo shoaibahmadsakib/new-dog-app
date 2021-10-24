@@ -290,6 +290,11 @@
   text-align: initial;
 }
 
+.welcome_image_size{
+   height: auto;
+   width: 200px;
+}
+
 .common-title {
   position: sticky;
   font-size: 1.7em;
