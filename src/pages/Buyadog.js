@@ -6,9 +6,10 @@ import Image2 from "../assets/2.jpeg";
 import Image3 from "../assets/3.jpeg";
 import Image4 from "../assets/4.jpeg";
 import First from "../assets/first.png"
-import Second from "../assets/second.png";
-import Third from "../assets/third.png";
-import Forth from "../assets/forth.png";
+import Crown from "../assets/crown.png"
+import Rocket from "../assets/rocket.png"
+import Exclusive from "../assets/exclusive.png"
+
 import Fifth from "../assets/fifth.png";
 import {
   BuyDogData,
@@ -158,7 +159,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Second}
+                      src={Crown}
                       alt="welcome image"
                     />
                   </div>
@@ -173,7 +174,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Third}
+                      src={Rocket}
                       alt="welcome image"
                     />
                     <div className="welcome_image_text">
@@ -188,7 +189,7 @@ const BuyAnApp = () => {
                   <div className="welcome_image">
                     <img
                       className="welcome_image_size"
-                      src={Forth}
+                      src={Exclusive}
                       alt="welcome image"
                     />
                   </div>
